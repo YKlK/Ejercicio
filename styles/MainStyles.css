@@ -12,20 +12,66 @@
   }
   .container-table {
     background-color: hsl(0deg, 0%, 100%);
-    height: 660px;
+    height: 540px;
     width: 360px;
     display: block;
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
   }
   .container-table-firstchild {
-    text-indent: 30px;
+    color: hsl(228deg, 12%, 48%);
+    margin: 30px 36px 0px 30px;
     font-size: 14px;
-    font-family: [Montserrat];
+    font-family: "Fraunces";
+    letter-spacing: 3.5px;
+  }
+  .container-table-second {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    line-height: 0.9em;
+    margin: 20px 36px 0px 27px;
+  }
+  .container-table-third {
+    color: hsl(228deg, 12%, 48%);
+    margin: 20px 36px 0 30px;
+    font-size: 16px;
+    font-family: "Fraunces";
+    word-spacing: 8px;
+    line-height: 1.6em;
+  }
+  .container-table-fourth {
+    margin: 20px 36px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Fraunces";
+    color: rgb(60, 128, 103);
+    display: inline-block;
+  }
+  .container-table-fifth {
+    display: inline-block;
+    text-decoration: line-through;
+    color: hsl(228deg, 12%, 48%);
+    font-family: "Fraunces";
+    transform: translatey(-50%);
+    color: hsl(228deg, 12%, 48%);
+  }
+  .container-table-button {
+    color: hsl(0deg, 0%, 100%);
+    display: block;
+    padding: 20px 75px;
+    margin: auto;
+    background-color: rgb(60, 128, 103);
+    border-radius: 15px;
+  }
+  .container-table-button:hover {
+    background-color: rgba(60, 128, 103, 0.9);
+    cursor: pointer;
+    box-shadow: 1px 1px 2px hsl(228deg, 12%, 48%);
   }
   .imageDesktop {
     background-color: hsl(0deg, 0%, 100%);
-    height: 660px;
+    height: 540px;
     width: 360px;
     display: block;
     border-bottom-left-radius: 15px;

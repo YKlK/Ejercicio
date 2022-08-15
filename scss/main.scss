@@ -31,12 +31,70 @@
     border-top-right-radius: 15px;
 
     &-firstchild{
-        text-indent:30px;
+      
+        color: $Dark_grayish_blue;
+        margin: 30px 36px 0px 30px;        
         font: { 
             size: $fonSize;
+            family: $Family2;
+        }
+
+        letter-spacing: 3.5px;
+    }
+    &-second{
+
+     
+        font: { 
+            size: 45px;
+            weight: 700;
             family: $Family1;
         }
+        line-height: .9em;
+        margin: 20px 36px 0px 27px;
     }
+    &-third{
+        color: $Dark_grayish_blue;
+        margin: 20px 36px 0 30px;        
+        font: { 
+            size: $fonSize + 2px;
+            family: $Family2;
+        }
+        word-spacing: 8px;
+        line-height: 1.6em;
+    }
+    &-fourth{
+        margin: 20px 36px;
+        font: { 
+            size: 40px;
+            weight: 700;
+            family: $Family2;
+        }
+        color: $Dark_cyan;
+        display: inline-block;
+    }
+    &-fifth{
+        display: inline-block;
+        text-decoration:line-through;
+        color: $Dark_grayish_blue;
+        font-family: $Family2;
+        transform: translatey(-50%);
+        color: $Dark_grayish_blue;
+    }
+
+    &-button{
+        color: $White;
+        display: block;
+        padding: 20px 75px;
+        margin: auto;
+        background-color: $Dark_cyan;
+        border-radius: 15px;
+        &:hover{
+            background-color: rgba($Dark_cyan,.9);
+            cursor: pointer;
+            box-shadow: 1px 1px 2px $Dark_grayish_blue;
+        }
+    }
+    
 }
 
 .imageDesktop{
