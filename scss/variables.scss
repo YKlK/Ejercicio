@@ -1,18 +1,27 @@
 $links:hsl(228, 45%, 44%);
 $fonSize: 14px;
+$cont:'container';
 
 //layout
 $Mobile: 375px;
 $Desktop: 1440px;
 
+$largeDesk:900px - 240px;
+$wideDesk:600px - 240px;
+
+$largePhone:480px;
+$widePhone:686px;
+
 //colores
 $Very_dark_blue: hsl(212, 21%, 14%);
 $Dark_grayish_blue: hsl(228, 12%, 48%);
 $White: hsl(0, 0%, 100%);
+$Dark_cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
 
 //parrafos
-$Family1: [Montserrat];
+$Family1: "Montserrat";
 $Weights2: 500, 700;
 
-$Family2: [Fraunces];
+$Family2: "Fraunces";
 $Weights2: 700;
