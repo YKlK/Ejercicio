@@ -9,8 +9,8 @@ $Desktop: 1440px;
 $largeDesk:900px - 360px;
 $wideDesk:600px - 240px;
 
-$largePhone:480px;
-$widePhone:686px;
+$largePhone:480px - 240px;
+$widePhone:686px - 686px + 360px;
 
 //colores
 $Very_dark_blue: hsl(212, 21%, 14%);
